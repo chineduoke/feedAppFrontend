@@ -66,6 +66,7 @@ const AppRoutes = () => {
       }
     }
   }, [userData]);
+  //userData, token, navigate
 
   if (isAuthenticated === null) return <LoadingIndicator />;
 
